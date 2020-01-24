@@ -4,5 +4,5 @@ def reverse_each_word(str)
     new_word = word.reverse
     reverse_array << new_word
   }
-  reverse_array
+  reverse_array.join(',')
 end
